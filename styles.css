@@ -121,3 +121,9 @@ span {
     font-size: 120px;
   }
 }
+
+@media (min-width: 420px) and (max-width: 768px) {
+  .new-p1 {
+    color: red;
+  }
+}
