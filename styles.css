@@ -104,13 +104,13 @@ span {
   }
 }
 
-/* @media (min-width: 420px) {
+@media (min-width: 420px) {
   .new-p1 {
     font-size: 120px;
   }
-} */
+}
 
-/* @media (max-width: 768px) {
+@media (max-width: 768px) {
   .new-p1 {
     font-size: 120px;
   }
@@ -120,4 +120,4 @@ span {
   .new-p1 {
     font-size: 120px;
   }
-} */
+}
