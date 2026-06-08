@@ -1,0 +1,123 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  background-color: black;
+  font-size: 200px;
+  padding: 10px 20px 30px;
+}
+
+.insta {
+  color: red;
+  padding: 10px 20px;
+  border: 20px solid white;
+  border-radius: 100%;
+}
+
+#x {
+  text-decoration: line-through;
+  padding: 10px;
+}
+
+.practice-section {
+  border: 2px solid black;
+  width: 500px;
+}
+
+.new-div {
+  height: 100px;
+  width: 100px;
+}
+
+.container {
+  top: 0;
+  border: 2px solid black;
+  font-size: 50px;
+  height: 50vh;
+  width: 50vw;
+}
+
+.okay {
+  font-size: 0.5em;
+}
+
+span {
+  font-size: 2rem;
+}
+
+.abc {
+  height: 100px;
+  border: 2px solid green;
+  background-color: lightgreen;
+  position: sticky;
+  bottom: 10px;
+}
+
+.new-p1 {
+  font-size: 40px;
+}
+
+@media (min-width: 425px) {
+  .practice-section {
+    display: flex;
+  }
+}
+
+@media (min-width: 768px) {
+  .new-p1 {
+    font-size: 80px;
+    color: blue;
+  }
+
+  .practice-section {
+    justify-content: space-between;
+  }
+}
+
+@media (min-width: 1024px) {
+  .new-p1 {
+    color: red;
+    font-size: 80px;
+    font-weight: bolder;
+  }
+
+  .practice-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (min-width: 1440px) {
+  .new-p1 {
+    color: red;
+    font-size: 120px;
+    font-weight: bolder;
+    border: 2px solid black;
+  }
+
+  .practice-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 40px;
+  }
+}
+
+/* @media (min-width: 420px) {
+  .new-p1 {
+    font-size: 120px;
+  }
+} */
+
+/* @media (max-width: 768px) {
+  .new-p1 {
+    font-size: 120px;
+  }
+}
+
+@media (min-width: 420px) and (max-width: 768px) {
+  .new-p1 {
+    font-size: 120px;
+  }
+} */
